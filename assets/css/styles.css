@@ -1,0 +1,70 @@
+/** Main style sheet for site **/
+
+/** -- Colours -- **/
+
+header {
+    background-color: red;
+}
+
+#section-main-cta {
+    background-color: green;
+}
+
+#section-about {
+    background-color: purple;
+}
+
+#section-benefits{
+    background-color: blue;
+}
+
+#section-hours-cost {
+    background-color: yellow;
+}
+
+#section-where-who {
+    background-color: brown
+}
+
+footer {
+    background-color: aqua;
+}
+
+/** -- TEMP OVERRIDES -- **/
+
+.container {
+    border: 2px solid white;
+}
+.row {
+    border: 2px solid orange;
+}
+
+
+/** -- Header/Nav -- **/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+}
+
+/** -- Main CTA -- **/
+
+#section-main-cta {
+    height: 80vh;
+    min-height: 400px;
+    max-height: 800px;
+}
+
+.content-main-cta {
+    height: 100%;
+}
+
+.row80 {
+    height: 80%;
+}
+
+.row20 {
+    height: 20%;
+}

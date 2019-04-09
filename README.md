@@ -1,7 +1,7 @@
 # School on The Farm Launch Site
 ### User Centric Frontend Development Milestone Project for Code Institute
 
-**_This is a website designed for a real business & a real client. Business name, logo & location have been changed for the purposes of this submission_**
+**_This is a website designed for a real business & a real client. Business name, logo, location and certain media items have been changed for the purposes of this submission._**
 
 A launch website for a new outdoor nursery school business. My client was seeking a website to advertise the launch of her new small business. The business was a nursery school offering childcare for 0-5s in an outdoor setting. There is significant competition around childcare provision in the local area so the site had to showcase the advantages of this new business over others (e.g. children looked after outside on a farm setting). I have created the content based on discussions & a business plan supplied by the client.
 
@@ -29,7 +29,7 @@ I have chosen to use a single page layout as this feels more straightforward for
 
 - HTML
 - CSS
-- Bootstrap (x)
+- Bootstrap (4.3.1)
 
 ## Features
 
@@ -51,6 +51,6 @@ Content was produced by me from discussions with my client & reference to her bu
 
 ### Media
 
-All from open licence sources with the logo produced by me.
+All from free licence sources with the logo produced by me. Images picked to convey message of gentle, outdoor and friendly small animal farm experience.
 
 ### Acknowledgements
