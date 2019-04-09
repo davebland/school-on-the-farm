@@ -9,92 +9,153 @@
         <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
     </head>
     <body>
+        <!-- Static Nav Area -->
         <header>
             Logo
             <nav>
                 Nav
             </nav>
         </header>
+        <!-- Main CTA Section -->
         <section id="section-main-cta" class="">
             <div class="container content-main-cta">
-                <div class="row row80">
-                    <div class="col-md-8 mr-auto">
-                        Main CTA Row 1
+                <!-- Headlines & Quick Ref Info -->
+                <div class="row row80 justify-content-center align-items-center">                    
+                    <div class="col-md-8">
+                        <h1>School on The Farm</h1>
+                        <h2>
+                            Strapline
+                            </br>
+                            <small class="text-muted">Secondary quick ref text</small>
+                        </h2>
                     </div>                    
                 </div>
-                <div class="row row20 justify-content-end">
-                    <div class="col-md-4">
-                        Main CTA Row 2
+                <!-- CTA Button and Nav Hints -->
+                <div class="row row20 justify-content-end align-items-center">
+                    <div class="col-md-4 text-center">
+                        <button type="button" class="btn">Register Now</button>                        
                     </div>                    
                 </div>
             </div>            
         </section>
+        <!-- About Section -->
         <section id="section-about" class="">
             <div class="container">
                 <h2>About</h2>
-                <div class="row">
-                    <div class="col-md-10 offset-1">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestiae perferendis enim repellat facilis dicta maxime quisquam tempore cupiditate. Provident incidunt architecto impedit amet nobis. Dolores adipisci nesciunt eligendi. Delectus.
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Benefits Section -->
         <section id="section-benefits" class="">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <article>
-                            <h3>Benefit 1</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsum?
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article>
-                            <h3>Benefit 2</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, earum?
-                        </article>
-                    </div>    
-                    <div class="col-md-4">
-                        <article>
-                            <h3>Benefit 3</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tempore.
-                        </article>
-                    </div>
+                <!-- Benefits Articles (Cards) -->
+                <div class="row card-deck">                    
+                    <article class="card">
+                        <img src="#" class="card-img-top d-none d-sm-block" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Benefit 1</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsum?</p>
+                        </div>                        
+                    </article>
+                    <article class="card">
+                        <img src="#" class="card-img-top d-none d-sm-block" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Benefit 2</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        </div>                        
+                    </article>        
+                    <article class="card">
+                        <img src="#" class="card-img-top d-none d-sm-block" alt="Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Benefit 3</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nobis voluptas blanditiis natus! Quod, quisquam!</p>
+                        </div>                        
+                    </article>
                 </div>
             </div> 
         </section>
+        <!-- Opening Hours & Costs Section -->
         <section id="section-hours-cost" class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <!-- Hours Article -->
+                    <article class="col-sm">
                         <h3>Hours</h3>
+                        <div class="row">
+                            <div class="col">G1</div>
+                            <div class="col">G2</div>
+                            <div class="col">G3</div>
+                            <div class="w-100 d-none d-sm-block d-md-none"></div>
+                            <div class="col">G4</div>
+                            <div class="col">G5</div>
+                        </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure ab adipisci sed quaerat eaque!
-                    </div>
-                    <div class="col-sm-6">
+                    </article>
+                    <!-- Cost Article -->
+                    <article class="col-sm">
                         <h3>Cost</h3>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est architecto enim soluta voluptate quibusdam.
-                    </div>
+                        <button type="button" class="btn float-right">Funded Hours</button>
+                    </article>
                 </div>
             </div>
         </section>
+        <!-- Where & Who Section -->
         <section id="section-where-who" class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <!-- Where Article -->
+                    <article class="col-sm">
                         <h3>Where</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quod cumque consequuntur distinctio maxime facere?
-                    </div>
-                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col d-none d-md-block">Map iframe</div>                            
+                            <ul class="col list-unstyled">
+                                <li>1 ABC Street</li>
+                                <li>A Lane</li>
+                                <li>B Town</li>
+                                <li>C Country</li>
+                                <li>AB12 3CD</li>
+                            </ul>                        
+                            <div class="col-4 d-md-none">Link</div>
+                        </div>
+                    </article>
+                    <!-- Who Article -->
+                    <article class="col-sm">
                         <h3>Who</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab enim cum sequi odit officiis ut!
-                    </div>
+                        <div class="row">
+                            <div class="col-md">Mrs A</div>
+                            <div class="col-md">Badges</div>
+                        </div>                        
+                    </article>
                 </div>
             </div>
         </section>
+        <!-- Footer with CTA, Social Links & Copyright -->
         <footer>
             <div class="container">
-                Footer CTA & Social
+                <div class="row">
+                    <div class="col-sm text-center">
+                        <button type="button" class="btn">Register Now</button>
+                    </div>
+                    <div class="col-sm">
+                        <div class="row">
+                            <div class="col">S1</div>
+                            <div class="col">S2</div>
+                            <div class="col">S3</div>
+                            <div class="col">S4</div>
+                        </div>
+                    </div>                
+                </div>
+                Copyright                
             </div>
         </footer>
+
+        <!-- Modal 1 - Funded Hours -->
+
+        <!-- Modal 2 - Registration Form -->
     </body>
 </html>

@@ -3,7 +3,7 @@
 
 **_This is a website designed for a real business & a real client. Business name, logo, location and certain media items have been changed for the purposes of this submission._**
 
-A launch website for a new outdoor nursery school business. My client was seeking a website to advertise the launch of her new small business. The business was a nursery school offering childcare for 0-5s in an outdoor setting. There is significant competition around childcare provision in the local area so the site had to showcase the advantages of this new business over others (e.g. children looked after outside on a farm setting). I have created the content based on discussions & a business plan supplied by the client.
+A launch website for a new outdoor nursery school business. My client was seeking a website to advertise the launch of her new small business. The business was a nursery school offering childcare for 0-5s in an outdoor setting. There is significant competition around childcare provision in the local area so the site had to showcase the advantages of this new business over others (e.g. children looked after outside on a farm setting). I have created the content based on discussions with & a business plan supplied by the client.
 
 The intention is that this single page launch site will be replaced by a more comprehensive website once the business is up & running (with styles and branding carried through).
 
@@ -35,7 +35,7 @@ I have chosen to use a single page layout as this feels more straightforward for
 
 - Fully responsive 
 - Cards
-- Modals
+- Modals (from Boostrap tutorials)
 - Interactive graphics
 - iframe gmaps (desktop)
 
@@ -51,6 +51,6 @@ Content was produced by me from discussions with my client & reference to her bu
 
 ### Media
 
-All from free licence sources with the logo produced by me. Images picked to convey message of gentle, outdoor and friendly small animal farm experience.
+All from free licence sources with the logo produced by me. Images picked to convey a message of a gentle, outdoor and friendly small animal farm experience.
 
 ### Acknowledgements

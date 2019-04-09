@@ -15,7 +15,7 @@ header {
 }
 
 #section-benefits{
-    background-color: blue;
+    background-color: lightcoral;
 }
 
 #section-hours-cost {
@@ -37,6 +37,12 @@ footer {
 }
 .row {
     border: 2px solid orange;
+}
+
+/** -- Buttons -- **/
+
+button {
+    background-color: white!important;
 }
 
 
