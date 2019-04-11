@@ -3,7 +3,7 @@
 /** -- Colours -- **/
 
 header {
-    background-color: white;
+    background-color: rgba(255,255,255,0.4);
 }
 
 #section-main-cta {
@@ -50,29 +50,12 @@ button {
 
 header {
     position: fixed;
+    width: 25vw;
+    max-width: 200px;
     top: 0;
     left: 0;
     margin-left: 20px;
     z-index: 10;
-}
-
-.nav-item { /** Extends Bootstrap **/       
-    margin-top: 20px;
-    background-image: 
-}
-
-.nav-item:before {
-    height: 50px;
-    width: 50px;
-    background-color: aqua;
-}
-
-.nav-item:hover {
-    background-color: blue;    
-}
-
-.nav-item.active {
-    background-color: blue;
 }
 
 /** -- Main CTA -- **/

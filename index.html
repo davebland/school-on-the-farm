@@ -11,12 +11,14 @@
     <body>
         <!-- Static Nav Area -->
         <header>
-            <a href="#section-main-cta">Logo</a>
+            <a href="#section-main-cta">
+                <img src="assets/images/SoTFLogo1.png" alt="School on The Farm Logo" class="img-fluid">
+            </a>
             <nav class="nav flex-column">                
-                <a href="#section-about" class="nav-item nav-link active">Link1</a>
-                <a href="#section-benefits" class="nav-item nav-link">Link2</a>
-                <a href="#section-hours-cost" class="nav-item nav-link">Link3</a>
-                <a href="#section-where-who" class="nav-item nav-link">Link4</a>
+                <a href="#section-about" class="nav-link active">Link1</a>
+                <a href="#section-benefits" class="nav-link">Link2</a>
+                <a href="#section-hours-cost" class="nav-link">Link3</a>
+                <a href="#section-where-who" class="nav-link">Link4</a>
             </nav>
         </header>
         <!-- Main CTA Section -->
@@ -36,7 +38,7 @@
                 <!-- CTA Button and Nav Hints -->
                 <div class="row row20 justify-content-end align-items-center">
                     <div class="col-md-4 text-center">
-                        <button type="button" class="btn">Register Now</button>                        
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-register">Register Now</button>                       
                     </div>                    
                 </div>
             </div>            
@@ -47,7 +49,7 @@
                 <h2>About</h2>
                 <div class="row justify-content-center">
                     <div class="col-md-10">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestiae perferendis enim repellat facilis dicta maxime quisquam tempore cupiditate. Provident incidunt architecto impedit amet nobis. Dolores adipisci nesciunt eligendi. Delectus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam dolorem nobis exercitationem consequuntur dolorum blanditiis voluptates eum, voluptas assumenda, maxime optio doloremque quia iusto unde quas laudantium quam! Unde, in deserunt? Hic perferendis in laboriosam dicta alias numquam aut. Quia cum est nesciunt tenetur accusamus ut unde asperiores in ullam facere veritatis dignissimos corporis architecto quasi, ex similique illo? Laboriosam modi natus repellat ratione ipsum magni corporis quam iure ipsa illo architecto quis quia, id voluptatibus expedita enim esse, porro nobis soluta sint. Animi quia tempore minima repellat inventore voluptatibus, nostrum excepturi dignissimos, eveniet, nemo nesciunt similique maiores accusamus!
                     </div>
                 </div>
             </div>
@@ -61,21 +63,21 @@
                         <img src="#" class="card-img-top d-none d-sm-block" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">Benefit 1</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsum?</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates atque aliquam, doloremque dolores debitis iste maiores dolore voluptatibus possimus quisquam soluta veniam totam distinctio dolorum molestias non velit aperiam rerum itaque sed. Quod magnam nihil voluptates exercitationem non, iure hic nesciunt nisi nobis assumenda. Tempore, fuga deleniti. Et, voluptate architecto.</p>
                         </div>                        
                     </article>
                     <article class="card">
                         <img src="#" class="card-img-top d-none d-sm-block" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">Benefit 2</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt repellendus illo quam voluptates. Numquam molestiae aspernatur totam quaerat voluptatum cupiditate distinctio, repellendus vel esse modi dolor, cumque quidem neque molestias eligendi fuga perferendis deserunt ipsum quod ducimus, accusamus sapiente?</p>
                         </div>                        
                     </article>        
                     <article class="card">
                         <img src="#" class="card-img-top d-none d-sm-block" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">Benefit 3</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nobis voluptas blanditiis natus! Quod, quisquam!</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quis ipsam quasi. Consectetur doloribus a, maiores esse sit ullam ex, odio dolore, laudantium enim quo. Aspernatur veritatis, architecto molestiae, unde consectetur odio magnam, delectus eveniet eum minus fugit distinctio? Voluptate expedita cupiditate in aliquid sapiente.</p>
                         </div>                        
                     </article>
                 </div>
@@ -96,13 +98,36 @@
                             <div class="col">G4</div>
                             <div class="col">G5</div>
                         </div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure ab adipisci sed quaerat eaque!
+                        <div class="row">
+                            <p class="col text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, iste.</p>
+                        </div>                    
                     </article>
                     <!-- Cost Article -->
                     <article class="col-sm">
-                        <h3>Cost</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est architecto enim soluta voluptate quibusdam.
-                        <button type="button" class="btn float-right">Funded Hours</button>
+                        <h3>Cost</h3>                    
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est architecto enim soluta voluptate quibusdam.</p>                                         
+                        <div class="row">
+                            <table class="table col-md">
+                                <tr>
+                                    <th>Duration</th>
+                                    <th>Price</th>
+                                </tr>
+                                <tr>
+                                    <td>1/2 day</td>
+                                    <td>Full day</td>
+                                </tr>
+                                <tr>
+                                    <td>£50</td>
+                                    <td>£100</td>
+                                </tr>
+                            </table>
+                            <div class="col-md-4 row">
+                                <p class="col">We also accept funded hours!</p>
+                                <div class="col d-md-none">Arrow Right</div>
+                                <div class="col d-none d-md-block">Arrow Down</div>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#modal-funded-hours">Find Out More</button>
+                            </div>
+                        </div>                                                
                     </article>
                 </div>
             </div>
@@ -114,8 +139,10 @@
                     <!-- Where Article -->
                     <article class="col-sm">
                         <h3>Where</h3>
-                        <div class="row">
-                            <div class="col d-none d-md-block">Map iframe</div>                            
+                        <div class="row align-items-center">
+                            <div class="col d-none d-md-block">
+                                <iframe src="" width="100%" height="100%">gmaps</iframe>
+                            </div>                            
                             <ul class="col list-unstyled">
                                 <li>1 ABC Street</li>
                                 <li>A Lane</li>
@@ -123,16 +150,23 @@
                                 <li>C Country</li>
                                 <li>AB12 3CD</li>
                             </ul>                        
-                            <div class="col-4 d-md-none">Link</div>
+                            <div class="col-4 d-md-none text-center">
+                                <button type="button" class="btn">Find Us</button>
+                            </div>
                         </div>
                     </article>
                     <!-- Who Article -->
                     <article class="col-sm">
                         <h3>Who</h3>
-                        <div class="row">
-                            <div class="col-md">Mrs A</div>
-                            <div class="col-md">Badges</div>
-                        </div>                        
+                        <div class="row align-items-center">
+                            <div class="col-6"><img src="" alt="profile image" class="img-thumbnail"></div>
+                            <div class="col-6 order-md-3">
+                                <h4>Mrs A</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, amet.</p>
+                            </div>
+                            <div class="col-6 order-md-2">Badge1</div>
+                            <div class="col-6 order-md-4">Badge2</div>
+                        </div>                       
                     </article>
                 </div>
             </div>
@@ -142,7 +176,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm text-center">
-                        <button type="button" class="btn">Register Now</button>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-register">Register Now</button>
                     </div>
                     <div class="col-sm">
                         <div class="row">
@@ -158,7 +192,48 @@
         </footer>
 
         <!-- Modal 1 - Funded Hours -->
-
+        <div class="modal fade" id="modal-funded-hours" tabindex="-1" role="dialog" aria-labelledby="Funded Hours Information" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Funded Hours</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Information on funded hours.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
         <!-- Modal 2 - Registration Form -->
+        <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="Registration Form" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Registration Form</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        This is the sign up form
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
