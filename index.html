@@ -9,18 +9,27 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#site-nav" data-offset="100">
         <!-- Static Nav Area -->
-        <header>
-            <a href="#section-main-cta">
+        <header id="site-nav">
+            <!-- Mobile Nav Logo (Button) -->
+            <a id="nav-toggler-button" class="d-md-none" href="#site-nav-links" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="site-nav-links">
                 <img src="assets/images/SoTFLogo1.png" alt="School on The Farm Logo" class="img-fluid">
-            </a>
-            <nav class="nav flex-column">                
-                <a href="#section-about" class="nav-link active">Link1</a>
-                <a href="#section-benefits" class="nav-link">Link2</a>
-                <a href="#section-hours-cost" class="nav-link">Link3</a>
-                <a href="#section-where-who" class="nav-link">Link4</a>
-            </nav>
+            </a>    
+            <!-- Desktop Nav Logo -->
+            <a href="#section-main-cta" class="d-none d-md-block">
+                <img src="assets/images/SoTFLogo1.png" alt="School on The Farm Logo" class="img-fluid">
+            </a>            
+            <!-- Nav Links -->
+            <div id="site-nav-links" class="collapse">
+                <nav class="nav flex-column">
+                    <a href="#section-main-cta" class="nav-link d-md-none">Home</a>                
+                    <a href="#section-about" class="nav-link">About</a>
+                    <a href="#section-benefits" class="nav-link">Benefits</a>
+                    <a href="#section-hours-cost" class="nav-link">Hours & Cost</a>
+                    <a href="#section-where-who" class="nav-link">Where & Who</a>
+                </nav>
+            </div>            
         </header>
         <!-- Main CTA Section -->
         <section id="section-main-cta" class="">
@@ -48,9 +57,15 @@
         <section id="section-about" class="">
             <div class="container">
                 <h2>About</h2>
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam dolorem nobis exercitationem consequuntur dolorum blanditiis voluptates eum, voluptas assumenda, maxime optio doloremque quia iusto unde quas laudantium quam! Unde, in deserunt? Hic perferendis in laboriosam dicta alias numquam aut. Quia cum est nesciunt tenetur accusamus ut unde asperiores in ullam facere veritatis dignissimos corporis architecto quasi, ex similique illo? Laboriosam modi natus repellat ratione ipsum magni corporis quam iure ipsa illo architecto quis quia, id voluptatibus expedita enim esse, porro nobis soluta sint. Animi quia tempore minima repellat inventore voluptatibus, nostrum excepturi dignissimos, eveniet, nemo nesciunt similique maiores accusamus!
+                <div class="row align-items-center">
+                    <div class="col offset-1">
+                        <h3>What We Offer</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ullam iusto nam, nulla ipsa ab? Sint dolores voluptate pariatur libero nisi id nemo voluptas excepturi modi in, earum molestias blanditiis ipsum perspiciatis explicabo, fugiat minus cupiditate, voluptatem culpa beatae. Corrupti quod asperiores, nihil rerum unde architecto perferendis quasi odio et?</p>
+                        <h3>Our Philosophy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsum at dolorum fuga ea veritatis minima hic laborum repudiandae nemo magnam, iure rem labore? Repellat quos nihil reiciendis consectetur temporibus?</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="assets/images/About1.jpg" alt="About Image" class="img-thumbnail">
                     </div>
                 </div>
             </div>
@@ -62,21 +77,21 @@
                 <!-- Benefits Articles (Cards) -->
                 <div class="row">                    
                     <article class="col-md card m-4">
-                        <img src="assets/images/Benefit1.jpg" class="card-img-top d-none d-sm-block" alt="Image">
+                        <img src="assets/images/Benefit1.jpg" class="card-img-top d-none d-md-block" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">Benefit 1</h3>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates atque aliquam, doloremque dolores debitis iste maiores dolore voluptatibus possimus quisquam soluta veniam totam distinctio dolorum molestias non velit aperiam rerum itaque sed. Quod magnam nihil voluptates exercitationem non, iure hic nesciunt nisi nobis assumenda. Tempore, fuga deleniti. Et, voluptate architecto.</p>
                         </div>                        
                     </article>
                     <article class="col-md card m-4">
-                        <img src="assets/images/Benefit2.jpg" class="card-img-top d-none d-sm-block" alt="Image">
+                        <img src="assets/images/Benefit2.jpg" class="card-img-top d-none d-md-block" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">Benefit 2</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt repellendus illo quam voluptates. Numquam molestiae aspernatur totam quaerat voluptatum cupiditate distinctio, repellendus vel esse modi dolor, cumque quidem neque molestias eligendi fuga perferendis deserunt ipsum quod ducimus, accusamus sapiente?</p>
                         </div>                        
                     </article>                    
                     <article class="col-lg card m-4">
-                        <img src="assets/images/Benefit3.jpg" class="card-img-top d-none d-sm-block" alt="Image">
+                        <img src="assets/images/Benefit3.jpg" class="card-img-top d-none d-md-block" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">Benefit 3</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quis ipsam quasi. Consectetur doloribus a, maiores esse sit ullam ex, odio dolore, laudantium enim quo. Aspernatur veritatis, architecto molestiae, unde consectetur odio magnam, delectus eveniet eum minus fugit distinctio? Voluptate expedita cupiditate in aliquid sapiente.</p>
@@ -88,24 +103,31 @@
         <!-- Opening Hours & Costs Section -->
         <section id="section-hours-cost" class="">
             <div class="container">
-                <div class="row">
-                    <!-- Hours Article -->
-                    <article class="col-lg m-3">
+                <!-- Hours Article -->
+                <article class="row align-items-center">                    
+                    <div class="col m-3">
                         <h3>Hours</h3>
-                        <div class="row graphics-days text-center">
+                        <div class="row graphics-days justify-content-around text-center">
                             <div class="col"><i class="far fa-calendar"></i></div>
                             <div class="col"><i class="far fa-calendar"></i></div>
                             <div class="col"><i class="far fa-calendar"></i></div>
-                            <!--<div class="w-100 d-none d-sm-block d-md-none"></div>-->
                             <div class="col"><i class="far fa-calendar"></i></div>
                             <div class="col"><i class="far fa-calendar"></i></div>
                         </div>
                         <div class="row text-hours">
                             <p class="col text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, iste.</p>
                         </div>                    
-                    </article>
-                    <!-- Cost Article -->
-                    <article class="col-lg m-3">
+                    </div>
+                    <div class="col-md-3 col-lg-4 d-none d-md-block m-3">
+                        Image
+                    </div>                    
+                </article>
+                <!-- Cost Article -->
+                <article class="row align-items-center">
+                    <div class="col-md-3 col-lg-4 d-none d-md-block m-3">
+                        Image
+                    </div>                    
+                    <div class="col m-3">
                         <h3>Cost</h3>                    
                         <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est architecto enim soluta voluptate quibusdam.</p>                                         
                         <div class="row align-items-center text-center">
@@ -134,16 +156,16 @@
                                 </div>                                
                             </div>
                         </div>                                                
-                    </article>
-                </div>
+                    </div>
+                </article>
             </div>
         </section>
         <!-- Where & Who Section -->
         <section id="section-where-who" class="">
             <div class="container">
-                <div class="row">
-                    <!-- Where Article -->
-                    <article class="col-lg m-3">
+                <!-- Where Article -->
+                <article class="row">                    
+                    <div class="col m-3">
                         <h3>Where</h3>
                         <div class="row align-items-center">
                             <div class="col d-none d-md-block m-3">
@@ -160,9 +182,11 @@
                                 <button type="button" class="btn">Find Us</button>
                             </div>
                         </div>
-                    </article>
-                    <!-- Who Article -->
-                    <article class="col-lg m-3">
+                    </div>                    
+                </article>
+                <!-- Who Article -->
+                <article class="row">
+                    <div class="col m-3">
                         <h3>Who</h3>
                         <div class="row align-items-center text-center">
                             <div class="col-6 p-3"><img src="assets/images/Profile1.jpg" width="50%" alt="profile image" class="img-thumbnail"></div>
@@ -173,8 +197,8 @@
                             <div class="col-6 order-md-2 p-3">Badge1</div>
                             <div class="col-6 order-md-4 p-3">Badge2</div>
                         </div>                       
-                    </article>
-                </div>
+                    </div>
+                </article>                
             </div>
         </section>
         <!-- Footer with CTA, Social Links & Copyright -->

@@ -54,6 +54,10 @@ button {
     background-color: white!important;
 }
 
+#nav-toggler-button {
+    background-color: blue;
+}
+
 
 /** -- Header/Nav -- **/
 
@@ -67,12 +71,22 @@ header {
     z-index: 10;
 }
 
+.active {
+    background-color: rgba(7, 140, 3, 0.6);
+}
+
+@media (min-width: 768px) {
+    .collapse {
+        display: unset !important;
+    }
+}
+
 /** -- Main CTA -- **/
 
 #section-main-cta {
-    height: 80vh;
+    height: 100vh;
     min-height: 400px;
-    max-height: 800px;
+    max-height: 1000px;
 
     background-image: url("../images/MainCTABackground1.png");
     background-size: auto 100%;
@@ -103,8 +117,6 @@ header {
 
 .graphics-days div {
     padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .graphics-days i {

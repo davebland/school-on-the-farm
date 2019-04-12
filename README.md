@@ -39,10 +39,13 @@ I have chosen to use a single page layout as this feels more straightforward for
 - Modals (from Boostrap tutorials)
 - Interactive graphics
 - iframe gmaps (desktop)
+- Scrollspy
 
 ## Testing
 
 Discovered content need a lot of spacing out.
+
+@media query used to open nav above md size.
 
 ## Deployment
 
