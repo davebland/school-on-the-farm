@@ -30,6 +30,7 @@ I have chosen to use a single page layout as this feels more straightforward for
 - HTML
 - CSS
 - Bootstrap (4.3.1)
+- Font Awesome (5.8.1)
 
 ## Features
 
@@ -40,6 +41,8 @@ I have chosen to use a single page layout as this feels more straightforward for
 - iframe gmaps (desktop)
 
 ## Testing
+
+Discovered content need a lot of spacing out.
 
 ## Deployment
 
