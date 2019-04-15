@@ -31,6 +31,7 @@ I have chosen to use a single page layout as this feels more straightforward for
 - CSS
 - Bootstrap (4.3.1)
 - Font Awesome (5.8.1)
+- Google Fonts
 
 ## Features
 

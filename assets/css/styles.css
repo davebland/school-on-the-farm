@@ -11,12 +11,11 @@ header {
 }
 
 #section-main-cta {
-    background-color: rgb(5, 175, 242);
-    //background-color: #06fdfc;
+    background-color: #05aff2;    
 }
 
 #section-about {
-    background-color: rgb(5, 175, 242);
+    background-color: #05aff2;
 }
 
 #section-benefits{
@@ -48,7 +47,7 @@ h3 {
 }
 
 h1 {
-    font-size: 6vw;
+    font-size: 80px;
 }
 
 h2 {
@@ -113,29 +112,34 @@ header {
     min-height: 400px;
     max-height: 1000px;
 
-    background-image: url("../images/MainCTABackground2.png"), linear-gradient(rgb(5, 40, 242), rgb(5, 175, 242), rgb(5, 175, 242));
-    background-size: 200%;
+    background-image: url("../images/MainCTABackground2.png"), linear-gradient(rgb(5, 40, 242), rgb(5, 175, 242), rgb(5, 175, 242));    
     background-repeat: repeat-x;
     background-position: bottom;
-}
 
-@media (min-width: 576px) {
-    #section-main-cta {
-        background-size: 125%;
-    }
+    background-size: 150%;
 }
 
 .content-main-cta {
     height: 100%;
 }
 
-.row80 {
-    height: 80%;
+.row-bottom {
+    //transform: translateY(200%);
 }
 
-.row33 {
-    height: 40%;
+@media (min-width: 576px) {
+    #section-main-cta {
+        background-size: 100%;
+    }
 }
+
+@media (min-width: 992px) {
+    #section-main-cta {
+        background-size: 50%;
+    }
+}
+
+
 
 /** -- About -- **/
 
@@ -147,20 +151,65 @@ header {
 
 .graphics-days div {
     padding-top: 40px;
+    color: rgb(5, 40, 242);
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+    
+.graphics-days div:hover {
+    transform: scale(1.2);
 }
 
 .graphics-days i {
     font-size: 50px;
 }
 
+.graphics-days p {
+    font-size: 14px;
+    font-weight: bold;
+    transform: translateY(-30px)
+}
+
 .text-hours {
     padding-top: 40px;
 }
 
-/** -- Main CTA -- **/
+/** -- Where & Who -- **/
+
+#gmaps-container {
+    width: 300px;
+    height: 300px;
+    border: 0px solid rgb(5, 40, 242);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #8d5a01;
+}
+
+.image-badge {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
 /** -- Footer -- **/
 
 footer {
-    padding: 10px 0px;
+    padding-top: 10px;
+}
+
+.icons-social i {
+    font-size: 40px;
+    color: #4e9a06;
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.icons-social i:hover {
+    transform: scale(1.5);
+    color: red;
+}
+
+footer > div > p {
+    margin-bottom: 0;
 }
