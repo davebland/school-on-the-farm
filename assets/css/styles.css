@@ -1,4 +1,8 @@
-/** Main style sheet for site **/
+/** MAIN STYLE SHEET FOR SITE **/
+
+/** -- Imports -- **/
+
+@import url('https://fonts.googleapis.com/css?family=Kalam:700|Short+Stack');
 
 /** -- Colours -- **/
 
@@ -7,28 +11,49 @@ header {
 }
 
 #section-main-cta {
-    background-color: #06fdfc;
+    background-color: rgb(5, 175, 242);
+    //background-color: #06fdfc;
 }
 
 #section-about {
-    background-color: rgb(6,253,252);
+    background-color: rgb(5, 175, 242);
 }
 
 #section-benefits{
-    background-color: rgba(7, 140, 3, 1);
+    background-color: #4e9a06;
 }
 
 #section-hours-cost {
-    background-color: rgba(204, 252, 20, 1);
+    background-color: #c17d11;
 }
 
 #section-where-who {
-    background-color: rgba(5, 40, 242, 0.5);
+    background-color: #85dc30;
 }
 
 footer {
-    background-color: rgba(7, 140, 3, 0.5);
+    background-color: #8d5a01;
 }
+
+/** -- Typography -- **/
+
+body {
+    font-family:  'Short Stack', cursive, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Kalam', cursive, sans-serif;      
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+h2 {
+}
+
 
 /** -- Master Styles -- **/
 
@@ -88,11 +113,16 @@ header {
     min-height: 400px;
     max-height: 1000px;
 
-    background-image: url("../images/MainCTABackground1.png");
-    background-size: auto 100%;
+    background-image: url("../images/MainCTABackground2.png"), linear-gradient(rgb(5, 40, 242), rgb(5, 175, 242), rgb(5, 175, 242));
+    background-size: 200%;
     background-repeat: repeat-x;
     background-position: bottom;
+}
 
+@media (min-width: 576px) {
+    #section-main-cta {
+        background-size: 125%;
+    }
 }
 
 .content-main-cta {
@@ -103,8 +133,8 @@ header {
     height: 80%;
 }
 
-.row20 {
-    height: 20%;
+.row33 {
+    height: 40%;
 }
 
 /** -- About -- **/
