@@ -48,6 +48,10 @@ Discovered content need a lot of spacing out.
 
 @media query used to open nav above md size.
 
+Table doesn't work in anything but Chrome.
+
+Adjusted max CTA height to 2500px for 4k.
+
 ## Deployment
 
 ## Credits

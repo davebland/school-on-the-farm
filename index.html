@@ -35,7 +35,7 @@
         <section id="section-main-cta" class="">
             <div class="container content-main-cta">
                 <!-- Headlines & Quick Ref Info -->
-                <div class="row row33 justify-content-center align-items-center">                    
+                <div class="row row-top justify-content-center align-items-center">                    
                     <div class="col-md-8 text-right">
                         <h1 class="text-headline-name">School on The Farm</h1>
                         <h2 class="text-headline-strapline">Strapline</h2>                            
@@ -45,13 +45,14 @@
                 <!-- CTA Button and Nav Hints -->
                 <div class="row row-bottom justify-content-between align-items-center">                                         
                     <div class="col-md-4 order-md-2 text-center">
-                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-register">Register Now</button>                       
+                        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-register">Register Now</button>                       
                     </div>
                     <div class="col-md-4 order-md-1 p-5 text-center">
-                        <h3 class="lead">Learn More<i class="fas fa-arrow-down"></i></h3>                        
+                        <a id="link-learn-more" href="#section-about"><h3 class="lead">Learn More <i class="fas fa-arrow-down"></i></h3></a>
                     </div>                
                 </div>
-            </div>            
+            </div>
+            <div id="background-graphic"></div>            
         </section>
         <!-- About Section -->
         <section id="section-about" class="">
@@ -139,27 +140,29 @@
                         <hr>                    
                         <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est architecto enim soluta voluptate quibusdam.</p>                                         
                         <div class="row align-items-center text-center">
-                            <table class="table col-md m-5">
-                                <tr class="thead-light">
-                                    <th>Duration</th>
-                                    <th>Price</th>
-                                </tr>
-                                <tr>
-                                    <td>1/2 day</td>
-                                    <td>£50</td>
-                                </tr>
-                                <tr>
-                                    <td>Full Day</td>
-                                    <td>£100</td>
-                                </tr>
-                            </table>
+                            <div class="col-md m-5">
+                                <table class="table">
+                                    <tr class="thead-light">
+                                        <th>Duration</th>
+                                        <th>Price</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1/2 day</td>
+                                        <td>£50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Full Day</td>
+                                        <td>£100</td>
+                                    </tr>
+                                </table>
+                            </div>                            
                             <div class="col-md-4">
                                 <div class="row text-center align-items-center">
                                     <p class="col col-md-12">We also accept funded hours!</p>
                                     <div class="col d-md-none"><i class="fas fa-arrow-right"></i></div>
                                     <div class="col col-md-12 d-none d-md-block"><i class="fas fa-arrow-down"></i></div>
                                     <div class="col col-md-12 mt-md-3">
-                                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-funded-hours">Find Out More</button>
+                                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-funded-hours">Find Out More</button>
                                     </div>                                    
                                 </div>                                
                             </div>
@@ -230,7 +233,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md text-center m-3">
-                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-register">Register Now</button>
+                        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-register">Register Now</button>
                     </div>
                     <div class="col-md m-3">
                         <div class="row text-center icons-social">
@@ -256,11 +259,10 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Information on funded hours.
+                        Information on funded hours. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deserunt rerum voluptates facere sed veritatis repellat nulla. Officiis, quos provident!
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
@@ -270,17 +272,39 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title">Registration Form</h5>
+                        <h5 class="modal-title" id="modal-title">Register your interest here</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        This is the sign up form
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <label form="form-registration" class="text-center">
+                            <p>Sign-up to be first on our mailing list when erolment starts!<br>
+                            <small>Mailing list only</small></p>
+                        </label>
+                        <form id="form-registration" class="">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Contact Email</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required/>
+                            </div>
+                            <div class="form-row align-items-center">
+                                <label for="qty-children" class="col-7 text-right p-3"><small>Number of children aged 2-5 that you are interested in enrolling</small></label>
+                                <div class="col-1"><i class="fas fa-arrow-right"></i></div>
+                                <input type="number" name="qty-children" id="qty-children" min="1" max="10" class="form-control col-4 p-3" placeholder="No."/>
+                            </div>
+                            <div class="form-group">
+                                <label for="notes">Any other notes?</label>
+                                <textarea rows="5" name="notes" id="notes" class="form-control" placeholder="Tell Us More..."></textarea>
+                            </div>
+                            <p class="text-center"><small>Privacy Notice</small></p>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-secondary">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
