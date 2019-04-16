@@ -46,12 +46,27 @@ h3 {
 }
 
 h1 {
-    font-size: 80px;
 }
 
 h2 {
 }
 
+.text-headline-name {
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 4em;
+    color: white;
+}
+
+.text-headline-name i {
+    font-size: 0.7em; 
+}
+
+@media (min-width: 768px) {
+    .text-headline-name i {
+        font-size: 1em; 
+    }
+}
 
 /** -- Master Styles -- **/
 
@@ -66,12 +81,12 @@ section {
 
 .container {
     border: 2px solid white;
-}
+} 
 .row {
     border: 2px solid orange;
 }
-
 **/
+
 
 /** -- Buttons -- **/
 
@@ -103,10 +118,6 @@ header {
     border-radius: 10px;
 }
 
-.nav {
-    //border-radius: 10px;
-}
-
 #site-nav-links .active {
     background-color: rgba(7, 140, 3, 0.6);
 }
@@ -133,7 +144,7 @@ header {
 }
 
 .content-main-cta {
-    height: 100%;
+    height: 80%;
 }
 
 #background-graphic {
@@ -148,12 +159,12 @@ header {
     background-size: auto 100%;
 }
 
-.row-top {
-    height: 60%;
+.row-full-height {
+    height: 100%;
 }
 
-.row-bottom {
-    height: 20%;
+.alert-warning {
+    z-index: 0; /** NOT WORKING **/
 }
 
 #link-learn-more {
@@ -164,11 +175,8 @@ header {
     #background-graphic {
         height: 40%;
     }
-    .row-top {
-        height: 50%;
-    }
-    .row-bottom {
-        height: 20%;
+    .content-main-cta {
+        height: 70%;
     }
 }
 
@@ -206,7 +214,8 @@ header {
 }
 
 .text-hours {
-    padding-top: 40px;
+    padding-top: 30px;
+    line-height: 2em;
 }
 
 /** -- Where & Who -- **/

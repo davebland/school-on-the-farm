@@ -1,9 +1,9 @@
 # School on The Farm Launch Site
 ### User Centric Frontend Development Milestone Project for Code Institute
 
-**_This is a website designed for a real business & a real client. Business name, logo, location and certain media items have been changed for the purposes of this submission._**
+**_This is a website designed for a the new business of a real client. For the purposes of this submission I have used a fictitious business name, logo, and location._**
 
-A launch website for a new outdoor nursery school business. My client was seeking a website to advertise the launch of her new small business. The business was a nursery school offering childcare for 0-5s in an outdoor setting. There is significant competition around childcare provision in the local area so the site had to showcase the advantages of this new business over others (e.g. children looked after outside on a farm setting). I have created the content based on discussions with & a business plan supplied by the client.
+A launch website for a new outdoor nursery school business. My client was seeking a website to advertise the upcoming launch of her new small business. The business was a nursery school offering childcare for 0-5s in an outdoor setting. There is significant competition around childcare provision in the local area so the site had to showcase the advantages of this new business over others (e.g. children looked after outside on a farm setting). I have created the content based on discussions I have had with the client & a business plan she supplied.
 
 The intention is that this single page launch site will be replaced by a more comprehensive website once the business is up & running (with styles and branding carried through).
 
@@ -17,7 +17,9 @@ The site can be found live here.
 
 The goal of this site was to provide a simple but eye-catching landing page for potential customers. The site had to deliver the key information about the nursery and provide a means for parents/carers to sign up for more info / pre-registration. Visitors would be directed to the site from advertising via print media, word of mouth & social networks.
 
-I have chosen to use a single page layout as this feels more straightforward for users and alludes to a small, modern business.
+I have chosen to use a fully responsive single page layout as this feels more straightforward for users and alludes to a small, modern business.
+
+Initial planning was done using the 5 steps to UX design & wireframed using an online tool.
 
 ### User Stories
 
@@ -56,9 +58,11 @@ Adjusted max CTA height to 2500px for 4k.
 
 ## Credits
 
+wireframe.io
+
 ### Content
 
-Content was produced by me from discussions with my client & reference to her business plan. All content would be checked and approved by my client before the site was launched commercially.
+Content was produced by me from discussions with my client & reference to her business plan. All content would be checked and approved by my client before the site was launched. commercially.
 
 ### Media
 

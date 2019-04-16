@@ -33,26 +33,34 @@
         </header>
         <!-- Main CTA Section -->
         <section id="section-main-cta" class="">
-            <div class="container content-main-cta">
-                <!-- Headlines & Quick Ref Info -->
-                <div class="row row-top justify-content-center align-items-center">                    
-                    <div class="col-md-8 text-right">
-                        <h1 class="text-headline-name">School on The Farm</h1>
-                        <h2 class="text-headline-strapline">Strapline</h2>                            
-                        <small class="text-muted">Secondary quick ref text</small>                        
-                    </div>                    
-                </div>
-                <!-- CTA Button and Nav Hints -->
-                <div class="row row-bottom justify-content-between align-items-center">                                         
-                    <div class="col-md-4 order-md-2 text-center">
-                        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-register">Register Now</button>                       
+            <div id="background-graphic"></div>   
+            <div class="container content-main-cta">                
+                <div class="row align-items-end justify-content-center text-center row-full-height">
+                    <!-- Headlines & Quick Ref Info -->
+                    <div class="col-12 col-md-8">
+                        <h1 class="text-headline-name">School on The Farm <i class="fas fa-tractor"></i></h1>                                                                                
                     </div>
-                    <div class="col-md-4 order-md-1 p-5 text-center">
-                        <a id="link-learn-more" href="#section-about"><h3 class="lead">Learn More <i class="fas fa-arrow-down"></i></h3></a>
-                    </div>                
+                    <div class="col-12 col-md-8">
+                        <div class="alert alert-warning">
+                            <h2 class="text-headline-strapline alert-heading">An Outdoor Farm Nursery in Cheshire</h2>                            
+                            <p class="mb-0"><span class="d-none d-md-inline">Excellent childcare in an outdoor setting</span><br>
+                            <strong>Coming soon, register your interest now!</strong></p> 
+                        </div>
+                    </div>
+                    <!-- CTA Button and Nav Hint -->
+                    <div class="col-12">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-lg-4 order-lg-2  p-3 mb-lg-5">
+                                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-register">Register Now</button>                       
+                            </div>
+                            <div class="col-12 col-lg-4 order-lg-1 align-self-end">
+                                <a id="link-learn-more" href="#section-about"><h3 class="">Learn More <i class="fas fa-arrow-down"></i></h3></a>
+                            </div> 
+                        </div>                        
+                    </div>
                 </div>
             </div>
-            <div id="background-graphic"></div>            
+                     
         </section>
         <!-- About Section -->
         <section id="section-about" class="">
@@ -60,7 +68,7 @@
                 <h2 class="display-4 text-center text-md-left">About</h2>
                 <hr>
                 <div class="row align-items-center">
-                    <div class="col offset-1">
+                    <div class="col offset-1 text-justify">
                         <h3>What We Offer</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ullam iusto nam, nulla ipsa ab? Sint dolores voluptate pariatur libero nisi id nemo voluptas excepturi modi in, earum molestias blanditiis ipsum perspiciatis explicabo, fugiat minus cupiditate, voluptatem culpa beatae. Corrupti quod asperiores, nihil rerum unde architecto perferendis quasi odio et?</p>
                         <h3>Our Philosophy</h3>
@@ -78,7 +86,7 @@
                 <h2 class="display-4 text-center">The Benefits</h2>
                 <hr>
                 <!-- Benefits Articles (Cards) -->
-                <div class="row">                    
+                <div class="row text-justify">                    
                     <article class="col-md card m-4">
                         <img src="assets/images/Benefit1.jpg" class="card-img-top d-none d-md-block mt-3" alt="Image">
                         <div class="card-body">
@@ -120,8 +128,8 @@
                         </div>
                         <div class="row text-hours">
                             <p class="col text-center">
-                                Monday - Fri <br>
-                                9am - 4pm (2 sessions) <br>
+                                Monday - Friday <br>
+                                <strong>9am - 4pm</strong> (2 sessions) <br>
                                 <em>We are open in the holidays too!</em>
                             </p>
                         </div>                    
@@ -138,7 +146,7 @@
                     <div class="col m-3">
                         <h2 class="display-5">Cost</h2>
                         <hr>                    
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est architecto enim soluta voluptate quibusdam.</p>                                         
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est architecto enim soluta voluptate quibusdam.</p>                                         
                         <div class="row align-items-center text-center">
                             <div class="col-md m-5">
                                 <table class="table">
@@ -158,7 +166,7 @@
                             </div>                            
                             <div class="col-md-4">
                                 <div class="row text-center align-items-center">
-                                    <p class="col col-md-12">We also accept funded hours!</p>
+                                    <p class="col col-md-12"><em>We also accept funded hours!</em></p>
                                     <div class="col d-md-none"><i class="fas fa-arrow-right"></i></div>
                                     <div class="col col-md-12 d-none d-md-block"><i class="fas fa-arrow-down"></i></div>
                                     <div class="col col-md-12 mt-md-3">
@@ -177,15 +185,15 @@
                 <!-- Where Article -->
                 <article class="row">                    
                     <div class="col m-3">
-                        <h2 class="display-5">Where</h2>
+                        <h2 class="display-5">Where Are We</h2>
                         <hr>
                         <div class="row align-items-center no-gutters">
                             <div id="gmaps-container" class="col d-none d-md-block m-3">                                
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19136.717036879672!2d-2.2269138666653716!3d53.162431096190375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a44334a3609f1%3A0x7f5b0aab47594065!2sCongleton!5e0!3m2!1sen!2suk!4v1555338196824!5m2!1sen!2suk" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
-                            <div class="col m-3 text-center">
+                            <div class="col m-3 text-justify">
                                 <p>Our farm is located near the beautiful town of Congleton. Easy access from Macclesfield, Leek, Crewe & Northwich.</p>
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled pl-5">
                                     <li>1 ABC Street</li>
                                     <li>A Lane</li>
                                     <li>B Town</li>
@@ -211,8 +219,8 @@
                             </div>
                             <div class="col-md-6 order-md-3 p-3 text-justify">
                                 <img src="assets/images/Profile1.png" width="30%" alt="profile image" class="d-md-none figure-img img-fluid rounded float-left">
-                                <p><strong>I'm Mrs A and I head up the team at School on The Farm.</strong>                                    
-                                    Having worked as a nursery manager for over 20 years I have experience of a range of approached and passionatly believe that good quality childcare
+                                <p><strong>I'm Mrs A and I head up the team at School on The Farm.</strong></p>                                    
+                                <p>Having worked as a nursery manager for over 20 years I have experience of a range of approached and passionatly believe that good quality childcare
                                     in an outdoor enviroment it the way foreward.</p>
                             </div>
                             <div class="col-6 order-md-2 p-3">
@@ -253,7 +261,7 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title">Funded Hours</h5>
+                        <h5 class="modal-title" id="modal-title"><i class="fas fa-file-invoice"></i> Funded Hours</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
