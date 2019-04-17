@@ -90,15 +90,10 @@ section {
 
 /** -- Buttons -- **/
 
-button {
-    //background-color: white!important;
-}
-
 /** -- Header/Nav -- **/
 
 header {
     position: fixed;
-    //width: 25vw;
     max-width: 200px;
     top: 10px;
     left: 10px;
@@ -113,9 +108,14 @@ header {
     background-color: rgba(255,255,255,0.4);
 }
 
+#text-above-logo {
+    font-size: 25px;
+}
+
 #site-nav-links {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.9);
     border-radius: 10px;
+    font-weight: 600;
 }
 
 #site-nav-links .active {
@@ -126,7 +126,7 @@ header {
     header {
         top: 0;
         left: 20px;
-        background-color: rgba(255,255,255,0.4);
+        background-color: rgba(255,255,255,0.8);
     }
     .collapse {
         display: unset !important;
@@ -192,7 +192,7 @@ header {
 /** -- Opening Hours & Cost -- **/
 
 .graphics-days div {
-    padding-top: 40px;
+    margin-top: 40px;
     color: rgb(5, 40, 242);
 
     transition: all;
@@ -211,6 +211,26 @@ header {
     font-size: 14px;
     font-weight: bold;
     transform: translateY(-30px)
+}
+
+.graphics-sessions p {
+    margin-bottom: 0;
+}
+
+.graphics-sessions > div {
+    margin-bottom: 2em;
+}
+
+.bg-p1 {
+    background-color: #4e9a06;
+}
+
+.bg-p2 {
+    background-color: rgb(5, 40, 242);
+}
+
+.bg-p3 {
+    background-color: purple;
 }
 
 .text-hours {
@@ -232,6 +252,10 @@ header {
 .image-badge {
     width: 50%;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /** -- Footer -- **/
