@@ -13,7 +13,7 @@ The site can be found live on [GitHub Pages](https://davebland.github.io/school-
 *Pic*
 
 ## UX
-The goal of this site is to deliver a simple but eye-catching landing page for potential customers. The site had to deliver the key information about the nursery and provide a means for parents/carers to sign up for pre-registration. The content needs to be clear and concise, essentially a sales pitch for the new business. Visitors will be directed to the site from advertising via print media, word of mouth & social networks.
+The goal of this site is to deliver a simple but eye-catching landing page for potential customers. The site has to deliver the key information about the nursery and provide a means for potential customers to sign up for pre-registration. The content needs to be clear and concise, essentially a sales pitch for the new business. Visitors will be directed to the site from advertising via print media, word of mouth & social networks.
 
 I have chosen to use a fully responsive single page layout as this is more straightforward for users and alludes to a small, modern business. It also feels more appropriate for a ‘launch’ site.
 
@@ -60,7 +60,7 @@ Testing was undertaken in a variety of browsers (Chrome, Edge, IE, Firefox) to e
 - Found navigation element remained collapsed when dynamically resizing at lg break point. Used media query used to force open navigation above lg size.
 - Using Boostrap row and column classes in other elements (e.g. table) worked in Chrome but not in other browsers. Moved classes out to own parent element to correct this.
 - Initially set max-height of main section (100vh) to 1000px. Adjusted this to 2500px after testing on larger screens to account for possible viewing up to 4k resolution.
-- Nav collapse doesn't work in IE...
+- Nav un-collapse above lg screen size was not working in IE, changed display property value to block to correct.
 ### User Story Testing
 To test the user stories I asked a non-technical person to view the site and comment on whether they could clearly find the information, understand what was being offered & would sign up if it was a service they needed. Made some changes to colours and text paragraph sizes as a result of feedback.
 
@@ -75,6 +75,6 @@ Content was produced by me from discussions with my client & reference to her bu
 ### Media
 Images & graphics from royalty free and CC licence sources, predominantly PixaBay.com. Logo produced by myself.
 ### Acknowledgements
--wireframe.cc (online wireframing tool)
--Bootstrap official documentation
--Smooth scrolling in HTML https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+- wireframe.cc (online wireframing tool)
+- Bootstrap official documentation
+- Smooth scrolling in HTML https://www.w3schools.com/howto/howto_css_smooth_scroll.asp

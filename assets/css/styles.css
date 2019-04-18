@@ -87,17 +87,6 @@ section {
     padding: 50px 0px;
 }
 
-/** -- TEMP OVERRIDES -- 
-
-.container {
-    border: 2px solid white;
-} 
-.row {
-    border: 2px solid orange;
-}
-
-**/
-
 /** -- Buttons -- **/
 
 .btn-success {
@@ -139,10 +128,10 @@ header {
         background-color: rgba(255,255,255,0.8);
     }    
     .collapse {
-        display: unset !important;
+        display: block !important;
     }
     #site-nav-links {
-        background-color: unset;        
+        background-color: transparent;         
     } 
 }
 
