@@ -8,7 +8,7 @@ My client was seeking a website to advertise the upcoming launch of her new smal
 
 The intention is that this launch site will be replaced by a more comprehensive website once the business is up & running (with styles and branding carried through).
 ## Demo
-The site can be found live here.
+The site can be found live on [GitHub Pages](https://davebland.github.io/school-on-the-farm/).
 
 *Pic*
 
@@ -75,6 +75,6 @@ Content was produced by me from discussions with my client & reference to her bu
 ### Media
 Images & graphics from royalty free and CC licence sources, predominantly PixaBay.com. Logo produced by myself.
 ### Acknowledgements
-wireframe.cc (online wireframing tool)
-Bootstrap official documentation
-Smooth scrolling in HTML https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+-wireframe.cc (online wireframing tool)
+-Bootstrap official documentation
+-Smooth scrolling in HTML https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
