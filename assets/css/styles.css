@@ -6,11 +6,11 @@
 
 /** -- Colours -- **/
 
-header {
-}
+header {}
 
 #section-main-cta {
-    background-color: #05aff2;    
+    background-color: #05aff2;
+    background-image: linear-gradient(#0528f2, #05aff2, #05aff2);    
 }
 
 #section-about {
@@ -22,7 +22,7 @@ header {
 }
 
 #section-hours-cost {
-    background-color: #c17d11;
+    background-color: #f1ba61;
 }
 
 #section-where-who {
@@ -30,7 +30,7 @@ header {
 }
 
 footer {
-    background-color: #8d5a01;
+    background-color: #eb9d21;
 }
 
 /** -- Typography -- **/
@@ -45,36 +45,46 @@ h3 {
     font-family: 'Kalam', cursive, sans-serif;      
 }
 
-h1 {
-}
-
-h2 {
-}
-
 .text-headline-name {
     text-transform: capitalize;
     font-variant: small-caps;
-    font-size: 4em;
-    color: white;
+    font-size: 3em;
+    color: #fff;
 }
 
 .text-headline-name i {
     font-size: 0.7em; 
 }
 
+.text-headline-strapline {
+    font-size: 1.5em;
+}
+
+#text-above-logo {
+    font-size: 25px;
+}
+
 @media (min-width: 768px) {
+    .text-headline-name {
+        font-size: 4em;
+    }
+    
     .text-headline-name i {
         font-size: 1em; 
     }
+    .text-headline-strapline {
+        font-size: 2rem;
+    }    
 }
 
-/** -- Master Styles -- **/
+/** -- Page Wide Styles -- **/
+
+html {
+    scroll-behavior: smooth;
+}
 
 section {
     padding: 50px 0px;
-}
-
-.container {
 }
 
 /** -- TEMP OVERRIDES -- 
@@ -85,10 +95,14 @@ section {
 .row {
     border: 2px solid orange;
 }
+
 **/
 
-
 /** -- Buttons -- **/
+
+.btn-success {
+    background-color: #4e9a06;
+}
 
 /** -- Header/Nav -- **/
 
@@ -103,13 +117,9 @@ header {
 #nav-toggler-button {
     display: block;
     width: 25vw;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px #000;
     border-radius: 10px;
     background-color: rgba(255,255,255,0.4);
-}
-
-#text-above-logo {
-    font-size: 25px;
 }
 
 #site-nav-links {
@@ -122,25 +132,27 @@ header {
     background-color: rgba(7, 140, 3, 0.6);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     header {
         top: 0;
         left: 20px;
         background-color: rgba(255,255,255,0.8);
-    }
+    }    
     .collapse {
         display: unset !important;
     }
+    #site-nav-links {
+        background-color: unset;        
+    } 
 }
 
-/** -- Main CTA -- **/
+/** -- Main CTA Section -- **/
 
 #section-main-cta {
     height: 100vh;
     min-height: 400px;
     max-height: 2500px;
-
-    background-image: linear-gradient(rgb(5, 40, 242), rgb(5, 175, 242), rgb(5, 175, 242));    
+    position: relative;        
 }
 
 .content-main-cta {
@@ -152,23 +164,14 @@ header {
     bottom: 0;
     width: 100%;
     height: 30%;
-
     background-image: url("../images/MainCTABackground2.png");
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto 100%;
 }
 
 .row-full-height {
     height: 100%;
-}
-
-.alert-warning {
-    z-index: 0; /** NOT WORKING **/
-}
-
-#link-learn-more {
-    text-decoration: none;
 }
 
 @media (min-width: 576px) {
@@ -180,21 +183,15 @@ header {
     }
 }
 
-@media (min-width: 992px) {}
-
-
 /** -- About -- **/
 
-
-
-/** -- Main CTA -- **/
+/** -- The Benefits -- **/
 
 /** -- Opening Hours & Cost -- **/
 
 .graphics-days div {
     margin-top: 40px;
-    color: rgb(5, 40, 242);
-
+    color: #0528f2;
     transition: all;
     transition-duration: 0.5s;
 }
@@ -226,27 +223,20 @@ header {
 }
 
 .bg-p2 {
-    background-color: rgb(5, 40, 242);
+    background-color: #05aff2;
 }
 
 .bg-p3 {
-    background-color: purple;
-}
-
-.text-hours {
-    padding-top: 30px;
-    line-height: 2em;
+    background-color: #8a2be2;
 }
 
 /** -- Where & Who -- **/
 
 #gmaps-container {
-    width: 300px;
     height: 300px;
-    border: 0px solid rgb(5, 40, 242);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px #8d5a01;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .image-badge {
@@ -254,7 +244,7 @@ header {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-a:hover {
+.link-no-decoration:hover {
     text-decoration: none;
 }
 
@@ -266,15 +256,14 @@ footer {
 
 .icons-social i {
     font-size: 40px;
-    color: #4e9a06;
-
+    color: #1133fa;
     transition: all;
     transition-duration: 0.5s;
 }
 
 .icons-social i:hover {
     transform: scale(1.5);
-    color: red;
+    color: #8a2be2;
 }
 
 footer > div > p {
@@ -283,6 +272,9 @@ footer > div > p {
 
 /** -- Modals -- **/
 
+.modal-content {
+    border: none;
+}
 .modal-header {
-    background-color: #4e9a06;
+    background-color: #9d4ee7;
 }
