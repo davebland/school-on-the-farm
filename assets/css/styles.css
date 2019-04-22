@@ -267,3 +267,7 @@ footer > div > p {
 .modal-header {
     background-color: #9d4ee7;
 }
+
+.form-row {
+    margin: 0;
+}
