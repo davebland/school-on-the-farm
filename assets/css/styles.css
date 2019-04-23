@@ -22,7 +22,7 @@ header {}
 }
 
 #section-hours-cost {
-    background-color: #f1ba61;
+    background-color: #9370DB;
 }
 
 #section-where-who {
@@ -180,7 +180,7 @@ header {
 
 .graphics-days div {
     margin-top: 40px;
-    color: #0528f2;
+    color: #000080;
     transition: all;
     transition-duration: 0.5s;
 }
@@ -216,7 +216,11 @@ header {
 }
 
 .bg-p3 {
-    background-color: #8a2be2;
+    background-color: #000080;
+}
+
+.table-warning th {
+    background-color: #fffa83;
 }
 
 /** -- Where & Who -- **/
