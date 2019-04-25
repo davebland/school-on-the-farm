@@ -26,11 +26,11 @@
             <!-- Nav Links -->
             <div id="site-nav-links" class="collapse">
                 <nav class="nav flex-column">
-                    <a href="#section-main-cta" class="nav-link d-lg-none">Home</a>                
+                    <a id="nav-top-link" href="#section-main-cta" class="nav-link d-lg-none">Home</a>                
                     <a href="#section-about" class="nav-link">About</a>
                     <a href="#section-benefits" class="nav-link">Benefits</a>
                     <a href="#section-hours-cost" class="nav-link">Hours & Cost</a>
-                    <a href="#section-where-who" class="nav-link">Where & Who</a>
+                    <a id="nav-bottom-link" href="#section-where-who" class="nav-link">Where & Who</a>
                 </nav>
             </div>            
         </header>
@@ -183,7 +183,7 @@
                             </table>
                         </div>
                         <!-- Opening Hours Data Graphical -->
-                        <div class="row justify-content-around text-center graphics-days" aria-hidden="true">
+                        <div class="row justify-content-around text-center graphics-days no-gutters" aria-hidden="true">
                             <div class="col"><i class="far fa-calendar"></i><p>Mon</p></div>
                             <div class="col"><i class="far fa-calendar"></i><p>Tue</p></div>
                             <div class="col"><i class="far fa-calendar"></i><p>Wed</p></div>
@@ -213,15 +213,17 @@
                     </div>                    
                 </article>
                 <!-- Cost Article -->
-                <article class="row align-items-center">
+                <article class="row align-items-center mt-3">
                     <div class="col-lg-3 col-xl-4 d-none d-lg-block m-3 p-5">
                         <img src="assets/images/Money1.png" class="img-fluid" alt="Money Graphic">   
                     </div>                    
                     <div class="col m-3">
                         <h2 class="display-5"><i class="fas fa-tags"></i> How Much Does it Cost?</h2>
-                        <hr>                                            
-                        <p class="text-center">Our session cost covers everything your child may need whilst at nursery, including a healthy snack both AM & PM.</p>                                                                 
-                        <div class="row align-items-center justify-content-around text-center">
+                        <hr>                                                                                                                                     
+                        <div class="row justify-content-around text-center">
+                            <div class="col-11 col-xl-9 mb-3">
+                                <p class="text-center">Our session cost covers everything your child may need whilst at nursery, including a healthy snack both AM & PM.</p>
+                            </div>                            
                             <div class="col-8 col-md-5 col-xl-4">
                                 <table class="table">
                                     <tr class="table-warning">
@@ -239,10 +241,10 @@
                                 </table>
                                 <p><small>* Per session basis</small></p>
                             </div>                            
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-3 text-center mt-3">
                                 <div class="row align-items-center">
-                                    <p class="col col-md-12"><em>We also accept funded hours!</em></p>
-                                    <div class="col d-md-none" aria-hidden="true"><i class="fas fa-arrow-right"></i></div>
+                                    <p class="col col-md-12"><em><strong>We also accept funded hours!</em></strong></p>
+                                    <div class="col-2 d-md-none" aria-hidden="true"><i class="fas fa-arrow-right"></i></div>
                                     <div class="col col-md-12 d-none d-md-block" aria-hidden="true"><i class="fas fa-arrow-down"></i></div>
                                     <div class="col col-md-12 mt-md-3">
                                         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-funded-hours">Find Out More</button>
@@ -289,7 +291,7 @@
                     </div>                    
                 </article>
                 <!-- Who We Are Article -->
-                <article class="row">
+                <article class="row mt-3">
                     <div class="col m-3">
                         <h2 class="display-5"><i class="far fa-question-circle"></i> Who We Are</h2>
                         <hr>
@@ -387,11 +389,11 @@
                         </label>
                         <form id="form-registration" class="">
                             <div class="form-group">
-                                <label for="name">Your Name</label>
+                                <label for="name"><strong>Your Name</strong></label>
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
                             </div>
                             <div class="form-group">
-                                <label for="email">Contact Email</label>
+                                <label for="email"><strong>Contact Email</strong></label>
                                 <input type="email" name="email" id="email" class="form-control" placeholder="Email" required/>
                             </div>
                             <div class="form-row align-items-center my-3">

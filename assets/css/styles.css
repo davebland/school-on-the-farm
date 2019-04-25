@@ -121,6 +121,14 @@ header {
     background-color: rgba(7, 140, 3, 0.6);
 }
 
+#nav-top-link {
+    border-radius: 10px 10px 0px 0px;
+}
+
+#nav-bottom-link {
+    border-radius: 0px 0px 10px 10px;
+}
+
 @media (min-width: 992px) {
     header {
         top: 0;
@@ -132,6 +140,9 @@ header {
     }
     #site-nav-links {
         background-color: transparent;         
+    }
+    #nav-bottom-link {
+        border-radius: 0;
     } 
 }
 

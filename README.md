@@ -38,6 +38,7 @@ Images and graphics chosen to convey a message of a gentle, outdoor and friendly
 - Create privacy policy to link from form
 - Add mobile share api function to footer share graphic
 - Implement smooth scrolling for IE, Edge & Safari (doesn't support CSS property)
+- Add JS to cause nav menu to collapse after nav action (mobile only)
 ## Technologies
 - HTML5
 - CSS3
