@@ -57,6 +57,8 @@ Images and graphics chosen to convey a message of a gentle, outdoor and friendly
 	- Bootstrap JS library
 ## Testing
 Testing was undertaken in a variety of browsers (Chrome, Edge, IE, Firefox) to ensure that the content displayed correctly & that the form and all links worked. I also tested the site on various device sizes using Chrome developer tools.
+
+HTML & CSS code was run through w3.org validators & any errors corrected.
 ### Technical Challenges
 - Found navigation element remained collapsed when dynamically resizing at lg break point. Used media query used to force open navigation above lg size.
 - Using Boostrap row and column classes in other elements (e.g. table) worked in Chrome but not in other browsers. Moved classes out to own parent element to correct this.
@@ -69,7 +71,7 @@ To test good semantic layout for screen readers I experienced the site using Mic
 ## Deployment
 Ultimately the site will be deployed to hosting under a suitable domain name for the business.
 
-For the purposes of this submission the site is served via GitHub Pages. The code repository is GitHub.
+For the purposes of this submission the site is served via GitHub Pages. The code repository is GitHub. Bootstrap (incld JS), FontAwesome & Google Fonts are externally linked.
 ## Credits
 ### Content
 Content was produced by me from discussions with my client & reference to her business plan. All content would be checked and approved by my client before the site is launched commercially.
@@ -79,3 +81,5 @@ Images & graphics from royalty free and CC licence sources, predominantly PixaBa
 - wireframe.cc (online wireframing tool)
 - Bootstrap official documentation
 - Smooth scrolling in HTML https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+- HTML5 validator https://validator.w3.org/
+- CSS3 validator https://jigsaw.w3.org/css-validator/
