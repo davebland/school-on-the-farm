@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,7 +87,7 @@
                     <div class="col-3 d-none d-lg-block text-center p-5">
                         <img src="assets/images/About1.jpg" alt="About Image" class="img-thumbnail">
                     </div>
-                    <div class="col-11 offset-md-1 text-justify">                        
+                    <div class="col-12 col-md-11 offset-md-1 text-justify">                        
                         <h3>Our Philosophy</h3>
                         <p>
                             At SoTF we offer our children the opportunity to experience the wonder of the natural world in a safe and secure environment. Our aims are to ensure that emotional well-being 
@@ -243,7 +243,7 @@
                             </div>                            
                             <div class="col-md-3 text-center mt-3">
                                 <div class="row align-items-center">
-                                    <p class="col col-md-12"><em><strong>We also accept funded hours!</em></strong></p>
+                                    <p class="col col-md-12"><strong><em>We also accept funded hours!</em></strong></p>
                                     <div class="col-2 d-md-none" aria-hidden="true"><i class="fas fa-arrow-right"></i></div>
                                     <div class="col col-md-12 d-none d-md-block" aria-hidden="true"><i class="fas fa-arrow-down"></i></div>
                                     <div class="col col-md-12 mt-md-3">
@@ -266,7 +266,7 @@
                         <hr> 
                         <div class="row align-items-center no-gutters">
                             <div id="gmaps-container" class="col d-none d-md-block m-3">                                
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19136.717036879672!2d-2.2269138666653716!3d53.162431096190375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a44334a3609f1%3A0x7f5b0aab47594065!2sCongleton!5e0!3m2!1sen!2suk!4v1555338196824!5m2!1sen!2suk" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <iframe id="gmaps-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19136.717036879672!2d-2.2269138666653716!3d53.162431096190375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a44334a3609f1%3A0x7f5b0aab47594065!2sCongleton!5e0!3m2!1sen!2suk!4v1555338196824!5m2!1sen!2suk"></iframe>
                             </div>
                             <div class="col m-3 text-justify">
                                 <p>Our farm is located near the beautiful town of Congleton. Easy access from Macclesfield, Leek, Crewe & Northwich.</p>
@@ -297,10 +297,10 @@
                         <hr>
                         <div class="row align-items-center text-center">
                             <div class="col-6 d-none d-md-block p-3">
-                                <img src="assets/images/Profile1.png" width="50%" alt="Mrs Brown Profile Image" class="img-fluid">
+                                <img src="assets/images/Profile1.png" alt="Mrs Brown Profile Image" class="img-fluid img50">
                             </div>
                             <div class="col-md-6 order-md-3 p-3 text-justify">
-                                <img src="assets/images/Profile1.png" width="30%" alt="Mrs Brown Profile Image" class="d-md-none img-fluid float-left">
+                                <img src="assets/images/Profile1.png" alt="Mrs Brown Profile Image" class="d-md-none img-fluid float-left img30">
                                 <p class="text-center lead">I'm Mrs Brown and I head up the team at School on The Farm.</p>                                    
                                 <p>
                                     I’ve worked as a nursery manager for over 20 years and have experienced a range of approaches to early years provision. The reason I’ve started SoTF is because 
@@ -310,12 +310,16 @@
                             </div>
                             <!-- External Links -->
                             <a href="https://www.gov.uk/government/organisations/ofsted" target="_blank" class="col-6 order-md-2 p-3 link-no-decoration">
-                                <img src="assets/images/OfstedBadge1.png" alt="Ofsted Badge" class="figure-img img-fluid rounded image-badge p-3">
-                                <figcaption class="figure-caption">Ofsted Rated <i class="fas fa-external-link-alt"></i></figcaption>
+                                <figure>
+                                    <img src="assets/images/OfstedBadge1.png" alt="Ofsted Badge" class="figure-img img-fluid rounded image-badge p-3">
+                                    <figcaption class="figure-caption">Ofsted Rated <i class="fas fa-external-link-alt"></i></figcaption>
+                                </figure>
                             </a>
                             <a href="https://www.cheshireeast.gov.uk" target="_blank" class="col-6 order-md-4 p-3 link-no-decoration">
-                                <img src="assets/images/CheshEastBadge1.png" alt="Cheshire East Badge" class="figure-img img-fluid rounded image-badge p-3">
-                                <figcaption class="figure-caption">Local Authority Approved <i class="fas fa-external-link-alt"></i></figcaption>
+                                <figure>
+                                    <img src="assets/images/CheshEastBadge1.png" alt="Cheshire East Badge" class="figure-img img-fluid rounded image-badge p-3">
+                                    <figcaption class="figure-caption">Local Authority Approved <i class="fas fa-external-link-alt"></i></figcaption>
+                                </figure>
                             </a>
                         </div>                       
                     </div>
@@ -343,11 +347,11 @@
         </footer>
 
         <!-- Modal 1 - Funded Hours -->
-        <div class="modal fade" id="modal-funded-hours" tabindex="-1" role="dialog" aria-labelledby="Funded Hours Information" aria-hidden="true">
+        <div class="modal fade" id="modal-funded-hours" tabindex="-1" role="dialog" aria-labelledby="modal-title-funded-hours" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title"><i class="fas fa-file-invoice"></i> Funded Hours</h5>
+                        <h5 class="modal-title" id="modal-title-funded-hours"><i class="fas fa-file-invoice"></i> Funded Hours</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
@@ -372,21 +376,21 @@
             </div>
         </div>        
         <!-- Modal 2 - Registration Form -->
-        <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="Registration Form" aria-hidden="true">
+        <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-title-registration" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title text-center text-md-left" id="modal-title">Register Interest for SoTF</h5>
+                        <h5 class="modal-title text-center text-md-left" id="modal-title-registration">Register Interest for SoTF</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <label form="form-registration" class="text-center">
+                        <div class="text-center">
                             <p class="lead">Great to have you onboard!</p>
                             <p>Sign-up to join our mailing list <i class="fas fa-arrow-down"></i></p>
                             <p><small>By registering here you will get a chance to enrol on your preferred session before places open to the general public.</small></p>
-                        </label>
+                        </div>
                         <form id="form-registration" class="">
                             <div class="form-group">
                                 <label for="name"><strong>Your Name</strong></label>
