@@ -10,7 +10,7 @@ The intention is that this launch site will be replaced by a more comprehensive 
 ## Demo
 The site can be found live on [GitHub Pages](https://davebland.github.io/school-on-the-farm/).
 
-*Pic*
+![Screenshot](assets/images/ReadmeAnimation.gif)
 
 ## UX
 The goal of this site is to deliver a simple but eye-catching landing page for potential customers. The site has to deliver the key information about the nursery and provide a means for potential customers to sign up for pre-registration. The content needs to be clear and concise, essentially a sales pitch for the new business. Visitors will be directed to the site from advertising via print media, word of mouth & social networks.
@@ -19,12 +19,12 @@ I have chosen to use a fully responsive single page layout as this is more strai
 
 Initial planning was done using the 5 planes of UX design & wireframed using an online tool.
 
-Images and graphics chosen to convey a message of a gentle, outdoor and friendly small animal farm experience.
+Images, bold colours and graphics chosen to convey a message of a child led, gentle, outdoor and friendly enterprise.
 ### User Stories
 1. Potential customers arriving at the site are engaged by the content, agree with the philosophy and easily find all the information they need to convince them to complete the registration form for further information.
 2. Registration form is easy to find & complete.
-3. Other interested parties that are informed about the new business (e.g. local authority, Ofsted etc.) can look up the site & find an overview of what’s being offered and who the responsible person is.
-4. Users experience coordinated branding across the site and other media which creates good user experience and confidence in the business.
+3. Other interested parties (e.g. local authority, Ofsted etc.) can look up the site & find an overview of what’s being offered and details of who the responsible person is.
+4. Users experience appropriate, coordinated branding across the site and other media which creates good user experience and confidence in the business.
 5. Site has good usability for screen reading assistance technology.
 ## Features
 - Fully responsive, looks good on all device sizes.
@@ -32,17 +32,17 @@ Images and graphics chosen to convey a message of a gentle, outdoor and friendly
 - Easy to complete registration form with verification of required fields (name, email).
 - Navigation element collapse at smaller screen sizes.
 - Semantic layout with extra data for screen reader users where required.
-- Embedded iframe to display Google Maps (code supplied from Google Maps).
+- Embedded iframe to display Google Maps.
 - Smooth scrolling when using nav links.
 ### Future Additions
-- Create privacy policy to link from form
-- Add mobile share api function to footer share graphic
-- Implement smooth scrolling for IE, Edge & Safari (doesn't support CSS property)
-- Add JS to cause nav menu to collapse after nav action (mobile only)
+- Create privacy policy to link from form.
+- Add mobile share api function to footer share graphic.
+- Implement smooth scrolling for IE, Edge & Safari (doesn't support CSS property).
+- Add JS to cause nav menu to collapse after nav action (mobile only).
 ## Technologies
 - HTML5
 - CSS3
-    - Transitions for ‘day’ graphics & social icons
+    - Transitions for ‘day’ graphics, social icons & page scrolling.
 - Bootstrap (4.3.1)
 	- Grid layout
 	- Modals
@@ -60,8 +60,8 @@ Testing was undertaken in a variety of browsers (Chrome, Edge, IE, Firefox) to e
 
 HTML & CSS code was run through w3.org validators & any errors corrected.
 ### Technical Challenges
-- Found navigation element remained collapsed when dynamically resizing at lg break point. Used media query used to force open navigation above lg size.
-- Using Boostrap row and column classes in other elements (e.g. table) worked in Chrome but not in other browsers. Moved classes out to own parent element to correct this.
+- Found navigation element remained collapsed when dynamically resizing at lg break point. Used media query to force open navigation above lg size.
+- Using Boostrap row and column classes within other elements (e.g. table) worked in Chrome but not in other browsers. Moved classes out to own parent element to correct this.
 - Initially set max-height of main section (100vh) to 1000px. Adjusted this to 2500px after testing on larger screens to account for possible viewing up to 4k resolution.
 - Nav un-collapse above lg screen size was not working in IE, changed display property value to block to correct.
 ### User Story Testing
