@@ -12,7 +12,7 @@ The intention is that this launch site will be replaced by a more comprehensive 
 
 ## Demo
 
-The site can be found live on [GitHub Pages](https://davebland.github.io/school-on-the-farm/).
+The site can be found live on [https://daveb.me.uk/SoTF/](https://daveb.me.uk/SoTF/).
 
 ![Screenshot](assets/images/ReadmeAnimation.gif)
 
@@ -92,7 +92,7 @@ To test good semantic layout for screen readers I experienced the site using Mic
 
 Ultimately the site will be deployed to hosting under a suitable domain name for the business.
 
-For the purposes of this submission the site is served via GitHub Pages. The code repository is GitHub. Bootstrap (incld JS), FontAwesome & Google Fonts are externally linked.
+For the purposes of this submission the site is served via AWS. The code repository is GitHub. Bootstrap (incld JS), FontAwesome & Google Fonts are externally linked.
 
 ## Credits
 
